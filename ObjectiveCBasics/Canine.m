@@ -9,16 +9,22 @@
 #import "Canine.h"
 
 @implementation Canine
-    -(id)initWithName:(NSString*) name {
-        self = [super init];
-        if(self) {
-            self.name = name;
-            self.group = Mammal;
-        }
-        return self;
+-(id)initWithName:(NSString*) name {
+    self = [super init];
+    if(self) {
+        self.name = name;
+        self.group = Mammal;
     }
+    return self;
+}
+
+-(void)bark {
+    NSLog(@"woof");
+}
+-(void)run {
     
-    -(void)bark {
-        NSLog(@"woof");
-    }
+}
+-(void)track {
+    
+}
 @end

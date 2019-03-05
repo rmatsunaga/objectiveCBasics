@@ -38,6 +38,7 @@
 		8B49EE37222F30780049C7D8 /* Chihuahua.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chihuahua.m; sourceTree = "<group>"; };
 		8B49EE39222F37090049C7D8 /* NSString+Translator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Translator.h"; sourceTree = "<group>"; };
 		8B49EE3A222F37090049C7D8 /* NSString+Translator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Translator.m"; sourceTree = "<group>"; };
+		8B49EE3C222F3A390049C7D8 /* Hunt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hunt.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +71,7 @@
 		8B49EE162229E1920049C7D8 /* ObjectiveCBasics */ = {
 			isa = PBXGroup;
 			children = (
+				8B49EE3C222F3A390049C7D8 /* Hunt.h */,
 				8B49EE30222F1C850049C7D8 /* Animal.h */,
 				8B49EE31222F1C850049C7D8 /* Animal.m */,
 				8B49EE33222F2EAF0049C7D8 /* Canine.h */,
