@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Animal.h"
+#import "Canine.h"
+#import "Chihuahua.h"
 @interface ViewController : UIViewController
 
 

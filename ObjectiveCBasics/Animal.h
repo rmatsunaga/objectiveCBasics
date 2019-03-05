@@ -26,6 +26,8 @@ enum Group {
     @property (nonatomic,) enum Group group;
     @property (nonatomic) BOOL isExtinct;
     @property (nonatomic) IBOutlet UIImageView *thumbnailView;
+    -(void) eat:(NSString*) food;
+    -(NSMutableArray*) produceOffspring: (int) totalChildren;
     
     
 @end

@@ -93,7 +93,7 @@
 //    if (nu < 5) {
 //        nu = 5;
 //    }
-//    
+//
 //    for (int i = 0; i < 5; i++) {
 //        switch (i) {
 //            case 0:
@@ -124,6 +124,38 @@
 //    NSString *result = 4 < .10 ? @"Yup" : @"Fuck";
 //    NSLog(result);
     
+    Animal *liger = [[Animal alloc]init];
+    liger.name = @"Liger";
+    liger.group = Mammal;
+    liger.isExtinct = NO;
+    [liger eat: @"nachos"];
+    
+    NSMutableArray *ligerChildren = [liger produceOffspring:3];
+    
+    Canine *wolf = [[Canine alloc] initWithName:@"Arctic Wolf"];
+    
+    [wolf bark];
+    
+    Chihuahua *tiny = [[Chihuahua alloc] init];
+    tiny.name = @"lil fucker";
+    
+    [tiny bark];
+    
+    [self converseWithDog:tiny];
+    [self converseWithDog:wolf];
+    NSArray *animalRoster = @[(wolf), tiny];
+    [self animalRollCall: animalRoster];
+}
+    
+-(void) converseWithDog:(Canine*) doggie  {
+    NSLog(@"Hello %@", doggie.name);
+    [doggie bark];
+}
+    
+-(void) animalRollCall:(NSArray*)animalRoster {
+    for(Animal *animal in animalRoster) {
+        NSLog(@"Hey you, %@.", animal.name);
+    }
 }
 
 
