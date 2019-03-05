@@ -44,41 +44,85 @@
 //    NSLog(blurb);
     
     
-    NSDictionary *bostonDict = @{@"City": @"Boston", @"Country": @"USA"};
+    /*
+     
+    NOW YOU'RE LEARNING COLLECTIONS.
+     
+     */
     
-    NSMutableDictionary *mutBostonDict = [[NSMutableDictionary alloc] initWithDictionary:bostonDict];
-    // OR you can simply initialize a mutable dictionary like so...
-    NSMutableDictionary *bostonAlternativeDict = [[NSMutableDictionary alloc] initWithObjectsAndKeys:@"Boston", @"City", @"USA", @"Country", nil];
+//    NSDictionary *bostonDict = @{@"City": @"Boston", @"Country": @"USA"};
+//
+//    NSMutableDictionary *mutBostonDict = [[NSMutableDictionary alloc] initWithDictionary:bostonDict];
+//    // OR you can simply initialize a mutable dictionary like so...
+//    NSMutableDictionary *bostonAlternativeDict = [[NSMutableDictionary alloc] initWithObjectsAndKeys:@"Boston", @"City", @"USA", @"Country", nil];
+//
+//    NSString *beanTown = [bostonDict valueForKey:@"City"];
+//
+//    [mutBostonDict setValue: @"Brazil" forKey: @"Country"];
+//    [mutBostonDict addEntriesFromDictionary:@{@"Population": @(656000)}];
+//
+//    NSMutableDictionary *atlDict = [[NSMutableDictionary alloc] initWithObjectsAndKeys:@"Atlantis", @"City", @"Spain", @"Country", @(150000), @"Population", nil];
+//    NSArray *cities = @[bostonDict, atlDict];
+//
+//    int i = [cities count];
+//    int j = cities.count;
+//
+//    NSMutableDictionary *sunkenCity = [cities objectAtIndex:1];
+//
+//    NSString *sunkenCityName = [[cities objectAtIndex:1] valueForKey:@"City"];
+//    int pop = [[[cities objectAtIndex: 1] valueForKey:@"Population"] intValue];
+//
+//    NSMutableArray *nameArray = [[NSMutableArray alloc] initWithObjects:@"Rey", @"Deepak", @"Michael", @"Siva", @"Ravi", @"Ajai", @"Anand", nil];
+//
+//    [nameArray addObject: @"GANG"];
+//
+//    [nameArray removeObjectAtIndex:[nameArray count] - 1];
+//
+//    [nameArray replaceObjectAtIndex:0 withObject:"Best Intern Ever, Deathray aka Chad Michaels aka Rey Matsunaga"];
+//
+//    NSArray <NSString *> * stringArray;
+//
     
-    NSString *beanTown = [bostonDict valueForKey:@"City"];
+    /*
+     
+     CONDITIONALS AND LOOPS
+     
+     */
     
-    [mutBostonDict setValue: @"Brazil" forKey: @"Country"];
-    [mutBostonDict addEntriesFromDictionary:@{@"Population": @(656000)}];
-    
-    NSMutableDictionary *atlDict = [[NSMutableDictionary alloc] initWithObjectsAndKeys:@"Atlantis", @"City", @"Spain", @"Country", @(150000), @"Population", nil];
-    NSArray *cities = @[bostonDict, atlDict];
-    
-    int i = [cities count];
-    int j = cities.count;
-    
-    NSMutableDictionary *sunkenCity = [cities objectAtIndex:1];
-    
-    NSString *sunkenCityName = [[cities objectAtIndex:1] valueForKey:@"City"];
-    int pop = [[[cities objectAtIndex: 1] valueForKey:@"Population"] intValue];
-    
-    NSMutableArray *nameArray = [[NSMutableArray alloc] initWithObjects:@"Rey", @"Deepak", @"Michael", @"Siva", @"Ravi", @"Ajai", @"Anand", nil];
-    
-    [nameArray addObject: @"GANG"];
-    
-    [nameArray removeObjectAtIndex:[nameArray count] - 1];
-    
-    [nameArray replaceObjectAtIndex:0 withObject:"Best Intern Ever, Deathray aka Chad Michaels aka Rey Matsunaga"];
-    
-    NSArray <NSString *> * stringArray;
-    
-    
-    
-    
+//    int nu = 2;
+//    if (nu < 5) {
+//        nu = 5;
+//    }
+//    
+//    for (int i = 0; i < 5; i++) {
+//        switch (i) {
+//            case 0:
+//                NSLog(@"When you hear the sound of thunder, don't you get too scared");
+//                break;
+//            case 1:
+//                NSLog(@"Just grab your thunder buddy and say these magic words");
+//                break;
+//            case 2:
+//                NSLog(@"Fuck you thunder! You can suck my Dick");
+//                break;
+//            case 3:
+//                NSLog(@"You can't get me thunder");
+//                break;
+//            case 4:
+//                NSLog(@"Cause you're just God's farts. FGHGHGH");
+//                break;
+//            default:
+//                NSLog(@"Ted on some gang shit");
+//        }
+//    }
+//    NSArray *nameArray = @[@"Jeremy", @"Chad"];
+//
+//    for (NSString *name in nameArray) {
+//        NSLog(name);
+//    }
+//
+//    NSString *result = 4 < .10 ? @"Yup" : @"Fuck";
+//    NSLog(result);
     
 }
 
