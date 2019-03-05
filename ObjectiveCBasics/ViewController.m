@@ -145,6 +145,13 @@
     [self converseWithDog:wolf];
     NSArray *animalRoster = @[(wolf), tiny];
     [self animalRollCall: animalRoster];
+    
+    
+    NSString *englishPhrase = @"Someone just stone my computer and ate my lunch.";
+    NSString *kennethPhrase = [englishPhrase kennethize:englishPhrase];
+    NSLog(kennethPhrase);
+    NSString *gabyPhrase = [englishPhrase gabify:englishPhrase];
+    NSLog(gabyPhrase);
 }
     
 -(void) converseWithDog:(Canine*) doggie  {

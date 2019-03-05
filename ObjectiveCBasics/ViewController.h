@@ -10,6 +10,7 @@
 #import "Animal.h"
 #import "Canine.h"
 #import "Chihuahua.h"
+#import "NSString+Translator.h"
 @interface ViewController : UIViewController
 
 

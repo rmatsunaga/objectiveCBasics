@@ -16,6 +16,7 @@
 		8B49EE32222F1C850049C7D8 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B49EE31222F1C850049C7D8 /* Animal.m */; };
 		8B49EE35222F2EAF0049C7D8 /* Canine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B49EE34222F2EAF0049C7D8 /* Canine.m */; };
 		8B49EE38222F30780049C7D8 /* Chihuahua.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B49EE37222F30780049C7D8 /* Chihuahua.m */; };
+		8B49EE3B222F37090049C7D8 /* NSString+Translator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B49EE3A222F37090049C7D8 /* NSString+Translator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		8B49EE34222F2EAF0049C7D8 /* Canine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Canine.m; sourceTree = "<group>"; };
 		8B49EE36222F30780049C7D8 /* Chihuahua.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chihuahua.h; sourceTree = "<group>"; };
 		8B49EE37222F30780049C7D8 /* Chihuahua.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chihuahua.m; sourceTree = "<group>"; };
+		8B49EE39222F37090049C7D8 /* NSString+Translator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Translator.h"; sourceTree = "<group>"; };
+		8B49EE3A222F37090049C7D8 /* NSString+Translator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Translator.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				8B49EE182229E1920049C7D8 /* AppDelegate.m */,
 				8B49EE1A2229E1920049C7D8 /* ViewController.h */,
 				8B49EE1B2229E1920049C7D8 /* ViewController.m */,
+				8B49EE39222F37090049C7D8 /* NSString+Translator.h */,
+				8B49EE3A222F37090049C7D8 /* NSString+Translator.m */,
 				8B49EE1D2229E1920049C7D8 /* Main.storyboard */,
 				8B49EE202229E1930049C7D8 /* Assets.xcassets */,
 				8B49EE222229E1930049C7D8 /* LaunchScreen.storyboard */,
@@ -158,6 +163,7 @@
 			files = (
 				8B49EE1C2229E1920049C7D8 /* ViewController.m in Sources */,
 				8B49EE32222F1C850049C7D8 /* Animal.m in Sources */,
+				8B49EE3B222F37090049C7D8 /* NSString+Translator.m in Sources */,
 				8B49EE38222F30780049C7D8 /* Chihuahua.m in Sources */,
 				8B49EE272229E1930049C7D8 /* main.m in Sources */,
 				8B49EE192229E1920049C7D8 /* AppDelegate.m in Sources */,
