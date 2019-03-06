@@ -97,22 +97,22 @@
 //    for (int i = 0; i < 5; i++) {
 //        switch (i) {
 //            case 0:
-//                NSLog(@"When you hear the sound of thunder, don't you get too scared");
+    //                NSLog(@":]");
 //                break;
 //            case 1:
-//                NSLog(@"Just grab your thunder buddy and say these magic words");
+    //                NSLog(@";]");
 //                break;
 //            case 2:
-//                NSLog(@"Fuck you thunder! You can suck my Dick");
+    //                NSLog(@":0");
 //                break;
 //            case 3:
-//                NSLog(@"You can't get me thunder");
+//                NSLog(@"T_T");
 //                break;
 //            case 4:
-//                NSLog(@"Cause you're just God's farts. FGHGHGH");
+//                NSLog(@"O.o");
 //                break;
 //            default:
-//                NSLog(@"Ted on some gang shit");
+//                NSLog(@"-.-'");
 //        }
 //    }
 //    NSArray *nameArray = @[@"Jeremy", @"Chad"];
@@ -121,7 +121,7 @@
 //        NSLog(name);
 //    }
 //
-//    NSString *result = 4 < .10 ? @"Yup" : @"Fuck";
+//    NSString *result = 4 < .10 ? @"Yup" : @"No";
 //    NSLog(result);
     
     Animal *liger = [[Animal alloc]init];
@@ -137,7 +137,7 @@
     [wolf bark];
     
     Chihuahua *tiny = [[Chihuahua alloc] init];
-    tiny.name = @"lil fucker";
+    tiny.name = @"tiny";
     
     [tiny bark];
     
@@ -152,6 +152,18 @@
     NSLog(kennethPhrase);
     NSString *gabyPhrase = [englishPhrase gabify:englishPhrase];
     NSLog(gabyPhrase);
+    
+    void (^myBlock) (void) = ^ {
+        NSLog(@"Hello, this is me, I ama  block");
+    };
+    myBlock;
+    NSString* (^myOtherBlock) (int input);
+    
+    myOtherBlock = ^NSString* (int input) {
+        return [NSString stringWithFormat:@"you passed me a %i", input];
+    };
+    
+    NSString *blockOutput = myOtherBlock(6);
 }
     
 -(void) converseWithDog:(Canine*) doggie  {
